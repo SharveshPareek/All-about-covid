@@ -1,0 +1,143 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/swipeLL"
+        android:gravity="center">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/cardview_3"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:layout_marginTop="15dp"
+                    android:src="@drawable/temperature"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Check your temperature make sure it's below 100 degree Fahrenheit"
+                    android:textSize="20sp"
+                    android:padding="7dp"
+                    android:layout_margin="15dp"
+                    android:layout_gravity="center"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/chestpain"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pressure in chest"
+                    android:layout_gravity="center"
+                    android:textSize="20sp"
+                    android:layout_margin="15dp"
+                    android:padding="7dp"
+                    android:textColor="@color/black"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    android:src="@drawable/drycough"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Dry lips and mouth"
+                    android:textSize="20sp"
+                    android:padding="7dp"
+                    android:layout_gravity="center"
+                    android:layout_margin="15dp"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/swipeLL"
+        android:layout_gravity="center"
+        android:layout_alignParentBottom="true"
+        android:gravity="end"
+        android:background="@color/light_grey"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="bottom"
+            android:padding="7dp"
+            android:textStyle="bold"
+            android:text="Swipe"
+            android:textColor="@color/navy_blue"
+            android:textSize="20sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:gravity="end"
+            android:tint="@color/navy_blue"
+            app:srcCompat="@drawable/ic_arrow_right" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:gravity="end"
+            android:tint="@color/navy_blue"
+            app:srcCompat="@drawable/ic_arrow_right" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:paddingTop="7dp"
+            android:paddingBottom="7dp"
+            android:gravity="end"
+            android:tint="@color/navy_blue"
+            app:srcCompat="@drawable/ic_arrow_right"
+            android:layout_marginRight="10dp"
+            android:layout_marginEnd="10dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+</LinearLayout>

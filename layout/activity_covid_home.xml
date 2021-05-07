@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/light_grey"
+              android:orientation="vertical"
+              tools:context=".CovidHome">
+
+    <include
+            layout="@layout/toolbar"
+            android:id="@+id/toolbar"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+        <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="none"
+                android:layout_margin="15dp"
+                android:background="@drawable/cardview_3">
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <ImageView
+                        android:layout_width="150dp"
+                        android:layout_height="150dp"
+                        android:src="@drawable/covid"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginBottom="15dp"
+                        android:layout_gravity="center"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:layout_marginTop="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="What is COVID-19 ?"
+                        android:textColor="@color/black"
+                        android:textStyle="bold|italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="COVID-19 is the disease caused by a new coronavirus called SARS-CoV-2.  WHO first learned of this new virus on 31 December 2019, following a report of a cluster of cases of ‘viral pneumonia’ in Wuhan, People’s Republic of China."
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="Down below are few myths with are solved with proper answer."
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:text="COVID-19 virus cannot be transmitted in areas with hot climate?"
+                        android:textColor="@color/black"
+                        android:textStyle="bold|italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:justificationMode="inter_word"
+                        android:text="Answer:"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="From the evidence so far, the COVID-19 virus can be transmitted in ALL AREAS, including areas with hot and humid weather. Regardless of climate, adopt protective measures if you live in, or travel to an area reporting COVID-19."
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:text="Taking a hot shower prevents COVID-19 virus?"
+                        android:textStyle="bold|italic"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:justificationMode="inter_word"
+                        android:text="Answer:"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="Taking a hot bath will not prevent you from catching COVID-19.By doing this you eliminate viruses that may be on your hands and avoid infection that could occur by then touching your eyes, mouth, and nose."
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:text="Can an ultraviolet disinfection lamp kill the new coronavirus?"
+                        android:textStyle="bold|italic"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:justificationMode="inter_word"
+                        android:text="Answer:"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="UV lamps should not be used to sterilize hands or other areas of skin as UV radiation can cause skin irritation."
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:text="How effective are thermal scanners in detecting people infected with the new coronavirus?"
+                        android:textStyle="bold|italic"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:justificationMode="inter_word"
+                        android:text="Answer:"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="Thermal scanners are effective in detecting people who have developed a fever (i.e. have a higher than normal body temperature) because of infection with the new coronavirus. However, they cannot detect people who are infected but are not yet sick with fever. This is because it takes between 2 and 10 days before people who are infected become sick and develop a fever."
+                        android:textStyle="italic"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:justificationMode="inter_word"
+                        android:text="Can eating garlic help prevent infection with the new coronavirus?"
+                        android:textStyle="bold|italic"
+                        android:textColor="@color/black"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:justificationMode="inter_word"
+                        android:text="Answer:"
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+                <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15dp"
+                        android:justificationMode="inter_word"
+                        android:text="Garlic is a healthy food that may have some antimicrobial properties. However, there is no evidence from the current outbreak that eating garlic has protected people from the new coronavirus."
+                        android:textColor="@color/black"
+                        android:textStyle="italic"
+                        android:textSize="17sp"
+                        android:padding="7dp"
+                        tools:targetApi="o"/>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+    </LinearLayout>
+
+</LinearLayout>
